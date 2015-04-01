@@ -1,4 +1,5 @@
 # Graphast
 ## An Extensible Framework for Building Applications on Time-dependent Networks
 
-Graphast source code will be available here in June, 2015.
+Graphast[http://arida.github.io/graphast] source code will be available here in June, 2015.
+
