@@ -6,6 +6,12 @@
   <title>Graphast</title>
   <link rel="stylesheet" href="css/foundation.css" />
   <script src="js/vendor/modernizr.js"></script>
+  <style type="text/css">
+  .tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;}
+  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;}
+  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;}
+  </style>
+
 </head>
 <body>
   <div class="row">
@@ -70,6 +76,43 @@
             <p/>
             <div class="panel">
               <h3>Experiments</h3>
+              <table class="tg">
+                <tr>
+                  <th class="tg-031e">Shortest Path (Dijsktra)</th>
+                  <th class="tg-031e">North / South São Paulo (ms)</th>
+                  <th class="tg-031e">West / East Brazil (ms)</th>
+                  <th class="tg-031e">Porto Alegre / São Paulo (ms)</th>
+                  <th class="tg-031e">Berlin (ms)</th>
+                </tr>
+                <tr>
+                  <td class="tg-031e">Titan</td>
+                  <td class="tg-031e">11895</td>
+                  <td class="tg-031e">12012</td>
+                  <td class="tg-031e">869293</td>
+                  <td class="tg-031e"></td>
+                </tr>
+                <tr>
+                  <td class="tg-031e">Neo4J (native)</td>
+                  <td class="tg-031e">4515</td>
+                  <td class="tg-031e">5934</td>
+                  <td class="tg-031e">20539</td>
+                  <td class="tg-031e"></td>
+                </tr>
+                <tr>
+                  <td class="tg-031e">Graphast</td>
+                  <td class="tg-031e">372</td>
+                  <td class="tg-031e">404</td>
+                  <td class="tg-031e">2033</td>
+                  <td class="tg-031e">566,4</td>
+                </tr>
+                <tr>
+                  <td class="tg-031e">GraphHopper</td>
+                  <td class="tg-031e">152</td>
+                  <td class="tg-031e">165</td>
+                  <td class="tg-031e">830</td>
+                  <td class="tg-031e">231,2</td>
+                </tr>
+              </table>
             </div>
           </div>
           <div class="content" id="panel3">
